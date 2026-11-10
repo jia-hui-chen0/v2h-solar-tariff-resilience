@@ -1,0 +1,46 @@
+# This repository holds code, the region and tariff-assignment tables, and the values plotted in each
+# figure (*_source_data.csv). Raw inputs, simulation results and figures stay outside it.
+
+# Data and outputs
+*.csv
+!PVEV/CostEmiAssessment/paper_figures/policy_risk/policy_risk_longdata.csv
+!PVEV/CostEmiAssessment/**/*_source_data.csv
+!Ford_CC/2020_Gaz_counties_national_0728_tempreg.csv
+!PVEV/julia/filtered_usurdb.csv
+!PVEV/julia/filtered_usurdb_2023later.csv
+!PVEV/utility_matching/2020_Gaz_counties_national_0728_tempreg_withutility_usurdb_filled.csv
+!PVEV/utility_matching/2020_Gaz_counties_national_0728_tempreg_withutility_usurdb_filled_sales_filled.csv
+!PVEV/utility_matching/tempreg_withutility_usurdb_filled_sales_state.csv
+!PVEV/utility_matching/Rates_dgrules.csv
+!PVEV/utility_matching/Rates_dgrules_tou.csv
+*.parquet
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.gz
+*.xml
+*.json
+*.pdf
+*.png
+*.html
+*.svg
+*.log
+*.gdx
+*.lst
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors
+.vscode/
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

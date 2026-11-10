@@ -1,0 +1,19 @@
+# Python packages used by the scripts in this repository.
+# Versions were not pinned when the paper runs were made; see README for the figure-script versions.
+
+numpy
+pandas
+pyarrow            # read_parquet in ResStock_processing.py
+scipy
+matplotlib
+plotly
+kaleido            # static export of the plotly maps
+requests
+beautifulsoup4
+lxml               # "xml" parser for ResStock building XML
+geopandas
+shapely
+openpyxl
+blast-lite         # NREL BLAST-Lite battery degradation models (imported as `blast`)
+
+# Not on PyPI here: the GAMS Python API ships with the GAMS installation (runs used GAMS 42 with CPLEX).
